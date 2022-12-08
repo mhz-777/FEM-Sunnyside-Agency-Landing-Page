@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App">
       <header>
-          <img src={siteLogo} alt="sunnyside" />
-          <button className="header__menuButton">test</button>
+          <img src={siteLogo} alt="sunnyside" className='header-logo'/>
+          <button className="header-menubutton"></button>
           <nav className="navigation">
-              <a href="#" className="navigation__links">About</a>
-              <a href="#" className="navigation__links">Services</a>
-              <a href="#" className="navigation__links">Projects</a>
-              <button className="navigation__cta">CONTACT</button>
+              <a href="#" className="navigation-links">About</a>
+              <a href="#" className="navigation-links">Services</a>
+              <a href="#" className="navigation-links">Projects</a>
+              <button className="navigation-cta">CONTACT</button>
           </nav>
       </header>
       <main>
