@@ -4,4 +4,41 @@
   --hero-font: 'Fraunces', serif;
   --logo-font: 'Barlow', sans-serif;
 
+  /* colours */
+
+  /* primary */
+  --faded-red: hsla(7, 99%, 70%, 0.311);
+  --faded-yellow: hsl(51, 100%, 49%);
+  --gfx-section-font-color: hsl(167, 40%, 24%);
+  --photography-section-font-color: hsl(198, 62%, 26%);
+  --footer-section: hsl(168, 34%, 41%);
+
+
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #3ebfff;
+}
+
+.header-menubutton {
+  background-image: url('./assets/images/icon-hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  background-color: #3ebfff;
+  width: 1.75rem;
+}
+
+
+/* hide links on mobile */
+
+.navigation {
+  display: none;
 }
