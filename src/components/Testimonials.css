@@ -1,0 +1,48 @@
+.testimonials-heading {
+
+    color: hsl(120, 0%, 52%);
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-picture {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial-desc {
+    
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+
+
+    color: hsl(0, 1%, 36%);
+    font-size: 1.125rem;
+
+    margin-bottom: 2rem;
+    
+}
+
+.testimonial-name {
+    color: black;
+    font-family: var(--hero-font);
+    font-weight: 900;
+    font-size: 1.25rem;
+
+    margin-bottom: 0;
+}
+
+.testimonial-signoff {
+    margin-top: 0.5rem;
+    margin-bottom: 6rem;
+}
