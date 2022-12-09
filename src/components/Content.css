@@ -82,7 +82,7 @@ picture {
 }
 
 .section-gfxdesign {
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url(../assets/mobile-images/image-graphic-design.jpg);
     background-size: cover;
     background-position: center;
@@ -95,8 +95,9 @@ picture {
 }
 
 .gfxdesign-info {
-    padding: 1.25rem;
-    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
 
     color: var(--gfx-section-font-color);
 }
@@ -106,7 +107,7 @@ picture {
 }
 
 .section-photography {
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url(../assets/mobile-images/image-photography.jpg);
     background-size: cover;
     background-position: center;
@@ -118,9 +119,11 @@ picture {
 
 .photography-info {
     color: var(--photography-section-font-color);
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .photography-info-desc {
     color: var(--photography-section-font-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
