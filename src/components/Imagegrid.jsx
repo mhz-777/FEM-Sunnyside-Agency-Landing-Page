@@ -12,22 +12,22 @@ const Imagegrid = () => {
     return (
         <section className="imageGrid">
             <picture>
-                <source media="(max-width: 750px)" srcSet={mobileMilk} />
+                <source media="(max-width: 500px)" srcSet={mobileMilk} />
                 <source media="(min-width: 800px)" srcSet={desktopMilk} />
                 <img src={mobileMilk} alt="milk" />
             </picture>
             <picture>
-                <source media="(max-width: 750px)" srcSet={mobileOrange} />
+                <source media="(max-width: 500px)" srcSet={mobileOrange} />
                 <source media="(min-width: 800px)" srcSet={desktopOrange} />
                 <img src={mobileOrange} alt="orange" />
             </picture>
             <picture>
-                <source media="(max-width: 750px)" srcSet={mobileCone} />
+                <source media="(max-width: 500px)" srcSet={mobileCone} />
                 <source media="(min-width: 800px)" srcSet={desktopCone} />
                 <img src={mobileCone} alt="cone" />
             </picture>
             <picture>
-                <source media="(max-width: 750px)" srcSet={mobileCubes} />
+                <source media="(max-width: 500px)" srcSet={mobileCubes} />
                 <source media="(min-width: 800px)" srcSet={desktopCubes} />
                 <img src={mobileCubes} alt="cubes" />
             </picture>
