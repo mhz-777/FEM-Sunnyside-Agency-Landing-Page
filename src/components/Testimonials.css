@@ -20,6 +20,7 @@
     border-radius: 50%;
 }
 
+
 .testimonial-desc {
     
     padding-left: 2.2rem;
@@ -29,7 +30,7 @@
     color: hsl(0, 1%, 36%);
     font-size: 1.125rem;
 
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
 }
 
