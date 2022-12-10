@@ -8,15 +8,18 @@ import facebook from './assets/images/icon-facebook.svg';
 import insta from './assets/images/icon-instagram.svg';
 import pinterest from './assets/images/icon-pinterest.svg';
 import twitter from './assets/images/icon-twitter.svg';
+import { useState } from 'react';
 
 function App() {
+
+  const [isVisible, setVisible] = useState(false);
 
   return (
     <div className="App">
       <header>
           <img src={siteLogo} alt="sunnyside" className='header-logo'/>
-          <button className="header-menubutton"></button>
-          <nav className="navigation">
+          <button className="header-menubutton" onClick={()=>setVisible(!isVisible)}></button>
+          <nav className={`navigation ${isVisible ? '' : 'hidden'}`}>
               <a href="#" className="navigation-links">About</a>
               <a href="#" className="navigation-links">Services</a>
               <a href="#" className="navigation-links">Projects</a>
@@ -30,7 +33,7 @@ function App() {
           <Imagegrid />
       </main>
       <footer>
-        <h1 className="footer-logo">sunnyside</h1>
+        <h1 className="footer-logo">SUNNYSIDE</h1>
         <div className="links">
           <a href="#" className="footer-links">About</a>
           <a href="#" className="footer-links">Services</a>
