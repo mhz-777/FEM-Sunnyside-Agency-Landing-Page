@@ -25,6 +25,7 @@ header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   background-color: #3ebfff;
+  
 }
 
 .header-menubutton {
@@ -34,12 +35,68 @@ header {
   border: none;
   background-color: #3ebfff;
   width: 1.75rem;
+  cursor: pointer;
+  position: relative;
 }
 
 
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  position: absolute;
+  background-color: white;
+  
+  width: calc(100vw - 3rem);
+  height: fit-content;
+  top: 6rem;
+
+  padding-bottom: 2rem;
+}
+
+/* add the nav menu bubble tail */
+.navigation::before {
+  content: '';
+  position: absolute;
+  
+  top: -1.75rem;
+  right: 0;
+
+  width: 1.75rem;
+  height: 1.75rem;
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+  background: white;
+  
+}
+
+.navigation-links {
+  text-decoration: none;
+  font-family: var(--logo-font);
+  color: gray;
+  
+  margin-top: 2rem;
+}
+
+.navigation-links:nth-of-type(3) {
+  margin-bottom: 2rem;
+}
+
+.navigation-cta {
+  background-color: #ffd302;
+  border: none;
+  border-radius: 2rem;
+
+  padding: 1.25rem 2rem;
+
+  font-family: var(--hero-font);
+
+  cursor: pointer;
+}
+
 /* hide links on mobile */
 
-.navigation {
+.hidden{
   display: none;
 }
 
