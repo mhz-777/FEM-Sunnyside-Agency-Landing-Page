@@ -33,7 +33,7 @@ function App() {
           <Imagegrid />
       </main>
       <footer>
-        <h1 className="footer-logo">SUNNYSIDE</h1>
+        <img src={siteLogo} alt="logo" className="footer-logo" />
         <div className="links">
           <a href="#" className="footer-links">About</a>
           <a href="#" className="footer-links">Services</a>
