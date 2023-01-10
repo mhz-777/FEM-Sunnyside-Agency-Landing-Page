@@ -13,9 +13,9 @@ const Content = () => {
                     <source media="(min-width: 600px)" srcSet={desktopEgg} />
                     <img src={mobileEgg} alt="egg" />
                 </picture>
-                <section className="transform-info">
+                <section className="section-info">
                     <h1 className="info-heading">Transform your brand</h1>
-                    <p className="transform-info-desc">
+                    <p className="section-info-desc">
                         We are a full-service creative agency specializing in helping brands grow fast.
                         Engage your clients through compelling visuals that do most of the marketing for you.
                     </p>
@@ -28,29 +28,31 @@ const Content = () => {
                     <source media="(min-width: 600px)" srcSet={desktopCup} />
                     <img src={mobileCup} alt="egg" />
                 </picture>
-                <section className="standout-info">
+                <section className="section-info">
                     <h1 className="info-heading">Stand out to the right audience</h1>
-                    <p className="standout-info-desc">
+                    <p className="section-info-desc">
                         Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
                         we'll build and extend your brand in digital places.
                     </p>
                     <a href="#" className='standout-info-link'>LEARN MORE</a>
                 </section>
             </section>
-            <section className="section-gfxdesign">
-                <section className="gfxdesign-info">
-                    <h1 className="info-heading">Graphic Design</h1>
-                    <p className="gfxdesign-info-desc">
-                        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.
-                    </p>
+            <section className="final-content-section">
+                <section className="section-gfxdesign">
+                    <section className="gfxdesign-info">
+                        <h1 className="info-heading-special">Graphic Design</h1>
+                        <p className="gfxdesign-info-desc">
+                            Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.
+                        </p>
+                    </section>
                 </section>
-            </section>
-            <section className="section-photography">
-                <section className="photography-info">
-                    <h1 className="info-heading">Photography</h1>
-                    <p className="photography-info-desc">
-                        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-                    </p>
+                <section className="section-photography">
+                    <section className="photography-info">
+                        <h1 className="info-heading-special">Photography</h1>
+                        <p className="photography-info-desc">
+                            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+                        </p>
+                    </section>
                 </section>
             </section>
         </div>
