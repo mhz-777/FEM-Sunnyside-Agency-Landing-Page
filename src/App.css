@@ -92,12 +92,14 @@ header {
   background-color: #ffd302;
   border: none;
   border-radius: 2rem;
-
   padding: 1.25rem 2rem;
-
   font-family: var(--hero-font);
-
   cursor: pointer;
+}
+
+.navigation-cta:hover{
+  background-color: rgba(255, 255, 255, 0.196);
+  color: white;
 }
 
 /* hide links on mobile */
@@ -133,15 +135,22 @@ footer {
   margin-bottom: 3rem;
 }
 
+.footer-links:hover {
+  color: white;
+}
+
 .social-icons {
   display: flex;
   justify-content: space-around;
-
+  cursor: pointer;
   margin-top: 1.25rem;
   margin-left: 6rem;
   margin-right: 6rem;
-  
   padding-bottom: 4rem;
+}
+
+.social-icons img:hover{
+  filter: brightness(0) invert(1);
 }
 
 @media screen and (min-width: 800px) {
