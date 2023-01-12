@@ -40,6 +40,11 @@
         letter-spacing: 0.5rem;
         padding-top: 5rem;
     }
+
+    .arrow-svg {
+        animation: none;
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (width >= 1000px) {
