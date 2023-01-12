@@ -156,11 +156,11 @@ picture {
    }
 
    .transform-info-link {
-        left: -5.5rem;
+        text-align: left;
    }
 
    .standout-info-link {
-        left: -5.5rem;
+        text-align: left;
    }
 
    .section-picture {
