@@ -31,6 +31,7 @@
 @media screen and (min-width: 800px){
     .hero {
         background-image: url('../assets/desktop-images/image-header.jpg');
+        min-height: 40rem;
         height: 45vh;
         margin-top: -4rem;
     }
