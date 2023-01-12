@@ -18,16 +18,15 @@
 }
 
 .arrow-svg {
-    padding-top: 8rem;
+    margin-top: 8rem;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 5;
 }
 
-@media screen and (min-height: 800px) {
 
-    .arrow-svg {
-        padding-top: 15rem;
-    }
-}
-
+/* queries */
 
 @media screen and (min-width: 800px){
     .hero {
@@ -41,10 +40,6 @@
         letter-spacing: 0.5rem;
         padding-top: 5rem;
     }
-
-    .arrow-svg {
-        margin-top: 1rem;
-    }
 }
 
 @media screen and (width >= 1000px) {
@@ -53,7 +48,32 @@
     }
 
     .arrow-svg {
-        margin-top: 0;
+        margin-top: 10rem;
+        animation: none;
     }
     
+}
+
+@media screen and (width >= 1500px) {
+    .hero {
+        height: 100vh;
+    }
+
+    .arrow-svg {
+        margin-top: 25rem;
+        animation-name: jump;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 5;
+    }
+    
+}
+
+
+/* animations */
+
+@keyframes jump {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(50px);}
+    100% {transform: translateY(0);}
 }
